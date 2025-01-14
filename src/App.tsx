@@ -3,7 +3,7 @@ import './App.css';
 function App() {
 
   return (
-    <>
+    <main className="min-h-svh flex justify-center items-center w-full">
       <button
         type="button"
         className="
@@ -17,7 +17,7 @@ function App() {
       >
         <span className="opacity-0">SHIMMER</span>
       </button>
-    </>
+    </main>
   )
 }
 
